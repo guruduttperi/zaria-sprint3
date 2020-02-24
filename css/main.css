@@ -24,6 +24,7 @@ html {
 
 body {
  background-color: #fff;
+ font-size: .8em;
 
 }
 
@@ -58,4 +59,30 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 .card.card-content{
   background-color: var(--violet);
+}
+
+.btn-plum{
+  background-color: var(--plum);
+  color: #fff;
+}
+
+.btn-purple{
+  background-color: var(--purple);
+  color: #fff;
+}
+
+.btn-plum-text{
+  color: white;
+}
+
+.btn-plum-text:hover{
+  color: white;
+}
+
+.btn-purple-text{
+  color: white;
+}
+
+.btn-purple-text:hover{
+  color: white;
 }
