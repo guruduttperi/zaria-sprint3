@@ -23,9 +23,13 @@ html {
 }
 
 body {
- background-color: #fff;
+ background-color: var(--offwhite);
  font-size: .8em;
 
+}
+
+.body-padding{
+  padding: 15px;
 }
 
 .navbar{
@@ -44,6 +48,11 @@ body {
 a.navbar-item.is-active{
 
   color: var(--plum);
+}
+
+.navbar.is-plum{
+  background-color: var(--plum);
+  color: white;
 }
 
 
@@ -84,5 +93,16 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 
 .btn-purple-text:hover{
+  color: white;
+}
+
+
+.text-purple{
+  color: var(--purple);
+}
+
+
+#mobile-title-plum{
+  text-align: center;
   color: white;
 }

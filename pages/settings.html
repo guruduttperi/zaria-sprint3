@@ -12,6 +12,18 @@
   <body>
 
 <!-- Navigation Bar -->
+
+<nav class="navbar is-plum" role="navigation" aria-label="main navigation">
+
+    <div class = "columns is-centered">
+    <div class = "column is-12">
+      <h1 class = "title is-3" id = "mobile-title-plum"> <b><br>Settings</b></h2>
+       </div>
+
+  </div>
+</nav>
+
+
     <nav id="navbarBottom" class="navbar is-fixed-bottom has-shadow">
   <!--  <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
@@ -24,24 +36,25 @@
       </div>
     </div> -->
 
-      <div class = "columns is-centered is-mobile">
-        <div class = "column is-one-quarter "><a class="navbar-item" href="home.html">
-            <b>Home</b>
-          </a>  </div>
 
-          <!--    <div class = "column is-one-quarter"><a class="navbar-item" href="chat.html">
-                  <b>Chat</b>
-                </a>  </div> -->
 
-            <div class = "column is-one-quarter"><a class="navbar-item" href="articles.html">
-                <b>Articles </b>
-              </a>  </div>
+    <div class = "columns is-centered is-mobile">
+<div class = "column is-one-quarter "><a class="navbar-item" href="home.html">
+    <b>Dashboard</b>
+  </a>  </div>
 
-              <div class = "column is-one-quarter"><a class="navbar-item is-active" href="settings.html">
-                  <b>Settings </b>
-                </a>  </div>
+  <!--    <div class = "column is-one-quarter"><a class="navbar-item" href="chat.html">
+          <b>Chat</b>
+        </a>  </div> -->
+    <div class = "column is-one-quarter"><a class="navbar-item" href="schedule.html">
+        <b>Schedule </b>
+      </a>  </div>
 
-      </div>
+      <div class = "column is-one-quarter"><a class="navbar-item  is-active" href="settings.html">
+          <b>Settings </b>
+        </a>  </div>
+
+    </div>
 
       <!--  <ul>
       <li class = "columns is 3">  <a class="navbar-item is-mobile" href="https://bulma.io/">
@@ -63,62 +76,32 @@
 
 <!-- End of Navbar-->
 
+<div class = "body-padding">
+  <br><br>
+  <div class = "card">
+    <header class="card-header">
+      <h3 class="card-header-title title is-5" style = "color: var(--plum)">
+      <img src = "/images/settings.jpg">
+      </h3>
+    </header>
+  <!-- Each Entry takes the class Card Content -->
+  <div class="card-content">
+      <h1 class = "title is-6">
+      Things will get better soon!
+      </h1>
 
-  <section class="section">
-    <div class="container">
+      <h1 class = "subtitle is-6">We would like to thank you for using our app and remind you that we are in this together! The light at the end of the tunnel is only getting brighter!</h1>
 
-      <div class="card">
-
-        <div class="card-content">
-
-            <h1 id="newsTitle1" class = "title is-5" style = "color: var(--plum)">My Profile</h1>
-            <h1 id="newsDesc1" class = "subtitle is-6">Edit your details</h1>
-
-
-        </div>
-      </div>
-<br><br>
-      <div class="card">
-
-        <div class="card-content">
-
-            <h1 id="newsTitle1" class = "title is-5" style = "color: var(--plum)">Send Feedback</h1>
-
-
-
-        </div>
-      </div>
-<br><br>
-      <div class="card">
-
-        <div class="card-content">
-
-            <h1 id="newsTitle1" class = "title is-5" style = "color: var(--plum)">Your Data and Privacy</h1>
-
-
-
-        </div>
-      </div>
-      <br><br>
-            <div class="card">
-
-              <div class="card-content">
-
-                  <h1 id="newsTitle1" class = "title is-5" style = "color: var(--plum)">Search Activity</h1>
-
-
-
-              </div>
-            </div>
-<br><br>
       <button id="btnLogOut" class="button btn-plum">
         Logout
       </button>
 
+  </div>
+  </div>
+
+</div>
 
 
-    </div>
-  </section>
   <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
 
   <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dasbboard - Zaria</title>
+    <title>Schedule - Zaria</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/bulma.css">
         <link rel="stylesheet" href="../css/main.css">
@@ -16,7 +16,7 @@
 
     <div class = "columns is-centered">
     <div class = "column is-12">
-      <h1 class = "title is-3" id = "mobile-title-plum"> <b><br>Dashboard</b></h2>
+      <h1 class = "title is-3" id = "mobile-title-plum"> <b><br>Schedule</b></h2>
        </div>
 
   </div>
@@ -36,14 +36,14 @@
     </div> -->
 
       <div class = "columns is-centered is-mobile">
-  <div class = "column is-one-quarter "><a class="navbar-item is-active" href="home.html">
+  <div class = "column is-one-quarter "><a class="navbar-item" href="home.html">
       <b>Dashboard</b>
     </a>  </div>
 
     <!--    <div class = "column is-one-quarter"><a class="navbar-item" href="chat.html">
             <b>Chat</b>
           </a>  </div> -->
-      <div class = "column is-one-quarter"><a class="navbar-item" href="schedule.html">
+      <div class = "column is-one-quarter"><a class="navbar-item is-active" href="schedule.html">
           <b>Schedule </b>
         </a>  </div>
 
@@ -77,63 +77,78 @@
 
 <div class = "body-padding">
 
-<!-- Dashboard -->
-<br><br>
-<div class = "card">
-  <header class="card-header">
-    <h3 class="card-header-title title is-5" style = "color: var(--plum)">
-      Your Happiness Report
-    </h3>
-    <button class=" button btn-plum"><a href="#" class = "btn-plum-text">▼</a></button>
-  </header>
 
-      <img src = "../images/dash.png">
 
-      <div class="card-content">
-          <h1 class = "title is-6">
-          How are you feeling today? </h1>
-
-      </div>
-      <footer class="card-footer">
-
-          <a href="#" class="card-footer-item">😀</a>
-          <a href="#" class="card-footer-item">🙂</a>
-          <a href="#" class="card-footer-item">😐</a>
-          <a href="#" class="card-footer-item">🙁</a>
-          <a href="#" class="card-footer-item">😮</a>
-
-        </footer>
-
-</div>
-
-<!-- Journal Entries -->
+<!-- Upcoming Appointments -->
 
 <br><br>
 <div class = "card">
   <header class="card-header">
     <h3 class="card-header-title title is-5" style = "color: var(--plum)">
-      Journal Entries
+      Upcoming Appointments
     </h3>
     <button class=" button btn-plum"><a href="#" class = "btn-plum-text">+</a></button>
   </header>
 <!-- Each Entry takes the class Card Content -->
 <div class="card-content">
     <h1 class = "title is-6">
-    <time><u><b>March 29, 2020<b/></u></time> &nbsp; <a href="/pages/edit_journal.html" class ="text-purple"><small>EDIT</small></a></h1>
+    <time><u><b>3:00 PM ● March 29, 2020<b/></u></time> &nbsp; <a href="/pages/edit_appointment.html" class ="text-purple"><small>EDIT</small></a></h1>
 
-    <h1 class = "subtitle is-6"> Today, I went for a walk. It was so soothing to hear the birds in the trees and to be outside despite the heat.</h1>
-
+    <h1 class = "subtitle is-6"> Meeting with Dr. Lindsey</h1>
 </div>
-<hr>
+
+    <hr>
+
 <div class="card-content">
     <h1 class = "title is-6">
-    <time><u><b>March 28, 2020<b/></u></time> &nbsp; <a href="/pages/edit_journal.html" class ="text-purple"><small>EDIT</small></a></h1>
+    <time><u><b>4:00 PM ● April 14, 2020<b/></u></time> &nbsp; <a href="/pages/edit_appointment.html" class ="text-purple"><small>EDIT</small></a></h1>
 
-    <h1 class = "subtitle is-6"> Today, I finished folding the clothes. It's been raining heavily for the past few hours.</h1>
+    <h1 class = "subtitle is-6"> Meeting with Dr. Lindsey</h1>
+
+</div>
+
+</div>
+
+<!-- Daily Reminders -->
+
+<br><br>
+<div class = "card">
+  <header class="card-header">
+    <h3 class="card-header-title title is-5" style = "color: var(--plum)">
+      Daily Reminders
+    </h3>
+    <button class=" button btn-plum"><a href="#" class = "btn-plum-text">+</a></button>
+  </header>
+<!-- Each Entry takes the class Card Content -->
+<div class="card-content">
+    <h1 class = "title is-6">
+    <time><u><b>9:30 AM<b/></u></time> &nbsp; <a href="/pages/edit_reminder.html" class ="text-purple"><small>EDIT</small></a></h1>
+
+    <h1 class = "subtitle is-6"> Take Medications A, B and C.</h1>
+</div>
+
+    <hr>
+
+<div class="card-content">
+    <h1 class = "title is-6">
+    <time><u><b>11:00 AM<b/></u></time> &nbsp; <a href="/pages/edit_reminder.html" class ="text-purple"><small>EDIT</small></a></h1>
+
+    <h1 class = "subtitle is-6"> Exercise - Walk in the Park</h1>
+
+</div>
+
+<hr>
+
+<div class="card-content">
+    <h1 class = "title is-6">
+    <time><u><b>6:00 PM<b/></u></time> &nbsp; <a href="/pages/edit_reminder.html" class ="text-purple"><small>EDIT</small></a> </h1>
+
+    <h1 class = "subtitle is-6"> Take Medications D, E and F.</h1>
 
 </div>
 
 </div>
+
 
 </div>
 </body>
